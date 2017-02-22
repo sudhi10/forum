@@ -2022,7 +2022,7 @@ div.wmd-button-bar {
 #header {/*position: fixed; top: 0;*/  width: 100%; float: left;}
 
 .logo {
-    background-image: url(http://img.flipit.com/public/my/images/upload/shop/thum_big_1421075794_Catchthatbus.png);
+    background-image: url(../images/JalanAdvisor.png);
     text-indent: -999px;
     width: 230px;
     background-position: left center;
@@ -2121,6 +2121,7 @@ div.provider_logo[name="myopenid"], div.provider_logo[name="yahoo"], div.provide
     border-radius: 3px;
     font-size: 14px;
     text-decoration: none;
+    margin-left: 20px;
 }
 
 .askquestionBtn a:hover {
@@ -2146,7 +2147,7 @@ div.provider_logo[name="myopenid"], div.provider_logo[name="yahoo"], div.provide
     width: 50%;
     float: left;
     margin-top: 20px;
-    text-align: center;
+    text-align: right;
 }
 
 .goReg {
