@@ -1,0 +1,57 @@
+{% extends "base_content.html" %}
+{% block page_center %}
+
+{% block full_width_banner %}{% endblock %}
+
+<div id="wrapper">
+    {% block site_width_banner %}{% endblock %}
+    
+    <div id="room">
+        <div id="CALeft">
+            {% block content%}
+            {% endblock%}
+
+        </div>
+        <div id="CARight">
+
+            <div class="boxC ibiboProducts">
+
+                <iframe src="https://www.catchthatbus.com/ctbwidget?&aff_id=7645&affiliateCode=involveasia&offer_id=549
+                    &fromCity=Kuala Lumpur&toCity=Singapore&header_img_show=1&header_img_url=&header_img_link=&footer_img_show=1&footer_img_url=&footer_img_link=
+                    &returnTrip=1&widgetCurrency=myr"style="border-style: none;min-height: 700px;max-height: 720px; width: 275px;"frameborder="0"border="0"cellspacing="0"scrolling="no"/>
+                </iframe>
+
+            </div>    
+
+
+            <div class="searchWidgetWrapper"> 
+                <a href="https://www.goibibo.com/" target="_blank">
+                    <img src="/m/default/media/images/booknow.png" alt="booknow" />
+                </a>
+            </div>            
+
+
+            <div class="searchWidgetWrapper"> 
+                <a href="https://www.goibibo.com/review-and-rating/" target="_blank"> 
+                    <img src="/m/default/media/images/review-rating.png" alt="Review Rating" /> 
+                </a>
+            </div>
+
+            <div class="searchWidgetWrapper"> 
+                <a href="https://www.goibibo.com/review-and-rating/" target="_blank">
+                    <img src="/m/default/media/images/travelguide.png" alt="travelguide" />
+                </a>
+            </div>
+
+            {% block sidebar%}
+            {% endblock%}
+        </div>
+        <div id="tail" style="clear:both;">
+            {% block tail %}
+            {% endblock %}
+        </div>
+    </div>
+    <div class="spacer3"></div>
+</div>
+{% endblock %}
+
