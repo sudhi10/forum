@@ -155,7 +155,10 @@ def process_provider_signin(request, provider):
 
 def external_register(request):
     if request.method == 'POST' and 'bnewaccount' in request.POST:
-        form1 = SimpleRegistrationForm(request.POST)
+        form1 = SimpleRegistrationForm(
+            {'username': request.POST.get('username'),
+            'email': request.POST.get('email'), 
+            'real_name': request.POST.get('username')})
 
         if form1.is_valid():
             user_ = User(username=form1.cleaned_data['username'], email=form1.cleaned_data['email'], real_name=form1.cleaned_data['real_name'])
