@@ -32,6 +32,15 @@
 
   </div>  
 
+  <!--mobile header -->
+  <div class="mobile-header" style="display:none">
+      <div class="menu-button">
+          <div class="button-icon"></div>
+      </div>
+      <div class="name-st"><a class="mobile-logo" href="{% url "index" %}" title="{{ settings.APP_TITLE }}">Jalanadvisor</a></div>
+      <div class="mobile-login">{% loadregistry header_links %}{% endloadregistry %}</div>
+  </div>
+
 </header>  
 
 

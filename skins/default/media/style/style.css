@@ -2260,3 +2260,29 @@ a.gowebUrl {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+
+/*************** Mobile resposive ****************/
+
+@media all and (max-width: 768px) {
+
+#CARight {display: none;}
+#CALeft {width: 100%;}
+.goSearchbar, .header, .mobile-login, .short-summary .counts, .headQuestions, .footerWaper {display: none;}
+
+}
+
+@media all and (max-width: 500px) {
+   .mobile-header {display: block !important;}
+   .mobile-header{padding:5px 15px;overflow: hidden;}
+   .mobile-logo {background-image: url("../images/JalanAdvisor.png");background-repeat: no-repeat;float: left;height: 40px;text-indent: -999px;width: 100%;display: block;background-position: center}
+   .tabsA {float:left !important;}
+   .short-summary .question-summary-wrapper {float: left;width: 100%;}
+   #wrapper, #announcement {width: 100% !important;}
+   .question-summary-wrapper h2 {line-height: 23px !important;}
+   .short-summary {width: 95% !important;}
+   .pagesize {margin-bottom: 0px !important;}
+   .paginator {font: 18px sans-serif;}
+   .tags a, span.tag {line-height: 28px;}
+}
