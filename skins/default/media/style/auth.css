@@ -1,6 +1,7 @@
 #bigicon_providers, #smallicon_providers {
     width:100%;
     clear:both;
+    display: none;
 }
 
 
