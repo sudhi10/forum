@@ -2268,8 +2268,13 @@ a.gowebUrl {
 @media all and (max-width: 768px) {
 
 #CARight {display: none;}
-#CALeft {width: 100%;}
-.goSearchbar, .header, .mobile-login, .short-summary .counts, .headQuestions, .footerWaper {display: none;}
+#CALeft {width: 100%; padding: 15px 0px 10px 0px !important;}
+.goSearchbar, .header, .mobile-login, .short-summary .counts, .footerWaper {display: none;} 
+.short-summary {padding: 15px 5px 10px 10px !important;}
+.headQuestions {height: 40px; margin-bottom: 10px;}
+#askform hr {border: none !important;}
+#askform .tabsA {display: none;} 
+.spacer3 {height: 0px;}
 
 }
 
