@@ -2261,6 +2261,7 @@ a.gowebUrl {
     margin-bottom: 10px;
 }
 
+#askform hr {border: none !important;}
 
 
 /*************** Mobile Responsive ****************/
