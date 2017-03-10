@@ -2276,6 +2276,7 @@ a.gowebUrl {
 #askform hr {border: none !important;}
 #askform .tabsA {display: none;} 
 .spacer3 {height: 0px;}
+.answer-body img {max-width: 96%;}
 
 }
 
